@@ -1,8 +1,3 @@
-import sayHello from './sayhello';
-import './styles/style.scss';
+import bootstrapApplication from './BootstrapApp'
 
-console.log(sayHello('world'));
-
-const testMessage: string = 'TypeScript works';
-
-console.log(testMessage);
+bootstrapApplication('main')
