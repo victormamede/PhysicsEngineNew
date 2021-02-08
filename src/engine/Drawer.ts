@@ -3,7 +3,7 @@ import Vector2 from '../math/Vector'
 export default class Drawer {
   private ctx: CanvasRenderingContext2D
 
-  constructor(private canvas: HTMLCanvasElement) {
+  constructor(public canvas: HTMLCanvasElement) {
     const context = canvas.getContext('2d')
     if (context == null) {
       throw new Error('Could not get canvas rendering context')

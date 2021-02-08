@@ -1,4 +1,5 @@
 import canvas from './App'
+import Vector2 from './math/Vector'
 
 export default function bootstrapApplication(tagId: string) {
   const element = document.getElementById(tagId)
